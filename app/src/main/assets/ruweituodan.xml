@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding = "GB2312"?>
+<GNNT>
+    <REQ name="order">
+        <USER_ID>登陆用户ID</USER_ID>
+        <TRADER_ID>交易员代码</TRADER_ID>
+        <CUSTOMER_ID>二级客户代码</CUSTOMER_ID>
+        <BUY_SELL>买卖标志：1买；2卖</BUY_SELL>
+        <COMMODITY_ID>商品统一代码</COMMODITY_ID>
+        <PRICE>委托价</PRICE>
+        <QTY>委托量</QTY>
+        <SETTLE_BASIS>委托类型：1开仓；2平仓；</SETTLE_BASIS>
+        <CLOSEMODE>
+            平仓方式：1不指定平仓；2指定时间平仓；3指定价格平仓
+        </CLOSEMODE>
+        <TIMEFLAG>
+            指定时间标志：1平今仓； 2平历史仓
+        </TIMEFLAG>
+        <L_PRICE>指定平仓价格</L_PRICE>
+        <SESSION_ID>SESSION_ID</SESSION_ID>
+        <BILLTYPE>
+            仓单交易类型： 0：正常（默认）；1：卖仓单；2：抵顶转让
+        </BILLTYPE>
+        <SO>
+            是否特殊委托(0：正常委托 1：特殊委托) 特殊委托只能和特殊委托成交
+        </SO>
+
+    </REQ>
+</GNNT>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?>
+<GNNT>
+	<REQ name="logon">
+		<USER_ID>username</USER_ID>
+		<PASSWORD>password</PASSWORD>
+		<REGISTER_WORD></REGISTER_WORD>
+		<VERSIONINFO></VERSIONINFO>
+		<LA>2</LA>	
+	</REQ>
+</GNNT>
